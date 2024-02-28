@@ -1,0 +1,5 @@
+SELECT *, IIF(MONTH(METTOL) IN (6,7,8), 'igen', 'nem' ) AS "NYárie"
+FROM FOGLALAS
+WHERE UGYFEL_FK =  'laszlo2'  AND GYERMEK_SZAM = 0  
+
+SELECT
